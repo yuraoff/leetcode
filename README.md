@@ -7,3 +7,6 @@
 ## Binary Search
 - [374. Guess Number Higher or Lower](./Leetcode.playground/Sources/Binary%20Search/374.%20Guess%20Number%20Higher%20or%20Lower.swift)
 - [704. Binary Search](./Leetcode.playground/Sources/Binary%20Search/704.%20Binary%20Search.swift)
+
+## Hash Table
+- [136. Single Number](./Leetcode.playground/Sources/Hash%20Table/136.%20Single%20Number.swift)
