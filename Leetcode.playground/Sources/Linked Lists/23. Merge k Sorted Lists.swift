@@ -1,7 +1,7 @@
 import Foundation
 
-enum MergeKsortedLists {
-  func mergeKListsV1(_ lists: [ListNode?]) -> ListNode? {
+public enum MergeKsortedLists {
+  public static func mergeKListsV1(_ lists: [ListNode?]) -> ListNode? {
     var numbers = [Int]()
     for head in lists {
       var currentNode: ListNode? = head
