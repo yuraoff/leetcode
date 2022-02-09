@@ -1,40 +1,38 @@
 import Foundation
 
 public enum AddTwoNumbers {
-  public static func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
-    let sum = toNumber(l1) + toNumber(l2)
-    print(sum)
-    return toListNode(sum)
-  }
-  
-  public static func toNumber(_ head: ListNode?) -> Int {
-    guard let head = head else { return 0 }
-    var current: ListNode? = head
-    var currentMultiplier = 1
-    var result = 0
-    while let currentHead = current {
-      result += currentHead.val * currentMultiplier
-      current = currentHead.next
-      currentMultiplier *= 10
+  public static func addTwoNumbersV1(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+    var inMemoryValue: Int = 0
+    var l1Head: ListNode? = l1
+    var l2Head: ListNode? = l2
+    var resultHead: ListNode?
+    var lastResultHead: ListNode?
+    while l1Head != nil || l2Head != nil {
+      if let currentL1Head = l1Head {
+        inMemoryValue += currentL1Head.val
+        l1Head = currentL1Head.next
+      }
+      if let currentL2Head = l2Head {
+        inMemoryValue += currentL2Head.val
+        l2Head = currentL2Head.next
+      }
+      
+      let currentResultListNode = ListNode(inMemoryValue % 10)
+      inMemoryValue = inMemoryValue / 10
+      
+      if resultHead == nil {
+        resultHead = currentResultListNode
+      } else {
+        lastResultHead?.next = currentResultListNode
+      }
+      lastResultHead = currentResultListNode
     }
-    print(result)
-    return result
-  }
-  
-  public static func toListNode(_ number: Int) -> ListNode? {
-    guard number != 0 else { return nil }
-    var currentMultiplier = 10.0
-    var currentNumber = Int((Double(number) / currentMultiplier).truncatingRemainder(dividingBy: 1) * 10)
-    let head = ListNode(currentNumber)
-    var currentHead = head
-    while currentNumber > 0 {
-      currentNumber = Int((Double(number) / currentMultiplier).truncatingRemainder(dividingBy: 1) * 10)
-      let newNode = ListNode(currentNumber)
-      currentHead.next = newNode
-      currentHead = newNode
-      currentMultiplier *= 10
+    
+    if inMemoryValue > 0 {
+      lastResultHead?.next = ListNode(inMemoryValue)
     }
-    return head
+    
+    return resultHead
   }
 }
 
