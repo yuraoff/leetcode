@@ -1,6 +1,6 @@
 import Foundation
 
-// https://leetcode.com/problems/binary-search/
+// Easy https://leetcode.com/problems/binary-search/
 public enum BinarySearch {
   public static func searchV1(_ nums: [Int], _ target: Int) -> Int {
     var mid: Int = 0

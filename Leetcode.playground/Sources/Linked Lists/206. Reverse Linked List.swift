@@ -1,6 +1,6 @@
 import Foundation
 
-// https://leetcode.com/problems/reverse-linked-list/
+// Easy https://leetcode.com/problems/reverse-linked-list/
 public enum ReverseLinkedList {
   public static func reverseListV1(_ head: ListNode?) -> ListNode? {
     var reversedHead: ListNode?

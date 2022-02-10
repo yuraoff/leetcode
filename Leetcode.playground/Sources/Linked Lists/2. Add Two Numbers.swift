@@ -1,6 +1,6 @@
 import Foundation
 
-// https://leetcode.com/problems/add-two-numbers/
+// Medium https://leetcode.com/problems/add-two-numbers/
 public enum AddTwoNumbers {
   public static func addTwoNumbersV1(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     var inMemoryValue: Int = 0

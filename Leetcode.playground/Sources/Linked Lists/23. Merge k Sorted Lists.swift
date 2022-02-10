@@ -1,6 +1,6 @@
 import Foundation
 
-// https://leetcode.com/problems/merge-k-sorted-lists/
+// Hard https://leetcode.com/problems/merge-k-sorted-lists/
 public enum MergeKsortedLists {
   public static func mergeKListsV1(_ lists: [ListNode?]) -> ListNode? {
     var numbers = [Int]()

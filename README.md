@@ -9,4 +9,5 @@
 - [704. Binary Search](./Leetcode.playground/Sources/Binary%20Search/704.%20Binary%20Search.swift)
 
 ## Hash Table
+- [1. Two Sum](./Leetcode.playground/Sources/Hash%20Table/1.%20Two%20Sum.swift)
 - [136. Single Number](./Leetcode.playground/Sources/Hash%20Table/136.%20Single%20Number.swift)

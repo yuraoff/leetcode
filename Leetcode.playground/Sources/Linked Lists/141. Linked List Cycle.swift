@@ -1,6 +1,6 @@
 import Foundation
 
-// https://leetcode.com/problems/linked-list-cycle/
+// Easy https://leetcode.com/problems/linked-list-cycle/
 public enum LinkedListCycle {
   public static func hasCycleV1(_ head: ListNode?) -> Bool {
     var slowPointer = head

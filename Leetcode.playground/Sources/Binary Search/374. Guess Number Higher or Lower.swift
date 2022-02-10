@@ -1,6 +1,6 @@
 import Foundation
 
-// https://leetcode.com/problems/guess-number-higher-or-lower/
+// Easy https://leetcode.com/problems/guess-number-higher-or-lower/
 public enum GuessNumberHigherOrLower {
   
   public static func guessNumberV1(_ n: Int) -> Int {
