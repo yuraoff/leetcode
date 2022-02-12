@@ -21,3 +21,6 @@
 
 ## DFS/BFS
 - [200. Number of Islands](./Leetcode.playground/Sources/DFS%20BFS/200.%20Number%20of%20Islands.swift)
+
+## Heap/Hash
+- [692. Top K Frequent Words](./Leetcode.playground/Sources/Heap,%20Hash/692.%20Top%20K%20Frequent%20Words.swift)
