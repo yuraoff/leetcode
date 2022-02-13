@@ -5,6 +5,7 @@
 - [206. Reverse Linked List](./Leetcode.playground/Sources/Linked%20Lists/206.%20Reverse%20Linked%20List.swift)
 
 ## Binary Search
+- [74. Search a 2D Matrix](./Leetcode.playground/Sources/Binary%20Search/74.%20Search%20a%202D%20Matrix.swift)
 - [374. Guess Number Higher or Lower](./Leetcode.playground/Sources/Binary%20Search/374.%20Guess%20Number%20Higher%20or%20Lower.swift)
 - [704. Binary Search](./Leetcode.playground/Sources/Binary%20Search/704.%20Binary%20Search.swift)
 
