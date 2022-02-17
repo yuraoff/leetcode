@@ -30,3 +30,6 @@
 ## Heap/Hash
 - [347. Top K Frequent Elements](./Leetcode.playground/Sources/Heap,%20Hash/347.%20Top%20K%20Frequent%20Elements.swift)
 - [692. Top K Frequent Words](./Leetcode.playground/Sources/Heap,%20Hash/692.%20Top%20K%20Frequent%20Words.swift)
+
+## Sort
+- [977. Squares of a Sorted Array](./Leetcode.playground/Sources/Sort/977.%20Squares%20of%20a%20Sorted%20Array.swift)
