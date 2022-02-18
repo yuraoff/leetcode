@@ -1,3 +1,5 @@
+# Swift Solutions for Leetcode
+
 ## Linked Lists
 - [2. Add Two Numbers](./Leetcode.playground/Sources/Linked%20Lists/2.%20Add%20Two%20Numbers.swift)
 - [23. Merge k Sorted Lists](./Leetcode.playground/Sources/Linked%20Lists/23.%20Merge%20k%20Sorted%20Lists.swift)
@@ -33,3 +35,6 @@
 
 ## Sort
 - [977. Squares of a Sorted Array](./Leetcode.playground/Sources/Sort/977.%20Squares%20of%20a%20Sorted%20Array.swift)
+
+## Strings
+- [161. One Edit Distance](./Leetcode.playground/Sources/String/161.%20One%20Edit%20Distance.swift)
