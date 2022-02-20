@@ -24,7 +24,7 @@ import Foundation
  Both list1 and list2 are sorted in non-decreasing order.
  */
 public enum MergeTwoSortedLists {
-  public static func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+  public static func mergeTwoListsV1(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
     var l1Head: ListNode? = list1
     var l2Head: ListNode? = list2
     var result: ListNode?
